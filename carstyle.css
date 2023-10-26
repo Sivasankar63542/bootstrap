@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.row{
+    width: 80%;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+.col{
+    width: 32%;
+    height: 480px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+.card-head{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+}
+.card-image img{
+    width: 100%;
+    height: 200px;
+}
+.card-title{
+    text-align: center;
+}
+.card-title ul li{
+    list-style: circle;
+    text-align: left;
+}
+.card-title ul button{
+    background-color: rgb(137, 204, 12);
+    text-align: left;
+}
